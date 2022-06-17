@@ -1,0 +1,202 @@
+
+
+h1 {
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* background and title */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.section_top {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  /* images gets preloaded here to create a seamless transition with no loading */
+  background-image: url("pictures/pic1.jpg"), url("pictures/pic2.jpg"), url("pictures/pic3.jpg"), url("pictures/pic4.jpg"), url("pictures/pic5.jpg"), url("pictures/pic6.jpg"), url("pictures/pic7.jpg"), url("pictures/pic8.jpg"), url("pictures/pic9.jpg"), url("pictures/pic10.jpg"), url("pictures/pic11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  /*transition animation */
+  animation: change 45s infinite ease-in-out;
+}
+
+/* transition animation keyframes*/
+.content a:hover {
+  background: #034e88;
+  color: #fff;
+}
+@keyframes change {
+  0%
+  {
+    background-image: url(pictures/pic1.jpg);
+  }
+  10%
+  {
+    background-image: url(pictures/pic2.jpg);
+  }
+  20%
+  {
+    background-image: url(pictures/pic3.jpg);
+  }
+  30%
+  {
+    background-image: url(pictures/pic4.jpg);
+  }
+  40%
+  {
+    background-image: url(pictures/pic5.jpg);
+  }
+  50%
+  {
+    background-image: url(pictures/pic6.jpg);
+  }
+  60%
+  {
+    background-image: url(pictures/pic7.jpg);
+  }
+  70%
+  {
+    background-image: url(pictures/pic8.jpg);
+  }
+  80%
+  {
+    background-image: url(pictures/pic9.jpg);
+  }
+  90%
+  {
+    background-image: url(pictures/pic10.jpg);
+  }
+  100%
+  {
+    background-image: url(pictures/pic11.jpg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  border: 3px solid white;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24%;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* grey bit */
+
+hr {
+  height: 10%;
+  background-color: rgb(224, 224, 224);
+  border-width: 0;
+}
+
+
+/* About us */
+
+.footheader {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  }
+ 
+.description {
+  padding-top: 20px;
+  margin: auto;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* button */
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: rgb(22, 66, 91); 
+  border: 2px solid rgb(22, 66, 91);
+}
+
+.button1:hover {
+  background-color: rgb(22, 66, 91);
+  color: white;
+}
+
+body {
+  background-color: fdsfsd;
+} 
+
+
+/* form */
+
+.contactbackground {
+  background-image: url("pictures/contact\ background.jpg")
+}
+
+.textalignbecause {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.textalignbecause2 {
+  text-align: center;
+  color:rgb(22, 66, 91)
+}
+
+.donatepage {
+  text-align: center;
+  margin-top: 175px;
+  margin-left: 50px;
+  font-size: 13px;
+}
+
+footer {
+  padding-top: 50px;
+}
